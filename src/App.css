@@ -1,38 +1,81 @@
-.App {
+*{
+  background-color: black;
+}
+.Hello{
+display: flex;
+background-color: black;
+color:white;
+flex-direction: left;
+padding-left: 20px;
+}
+.fame{
+  font-family: ' Glober';
+  font: 80px;
+  text-decoration-line: overline;
+  text-decoration-color:white;
+  text-decoration-style: solid ;
+}
+.Hello1{
+  background-color: black;
+color:white;
+margin: auto;
+text-align: center;
+}
+.img{
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 4px;
+  float: left;
+}  
+.world{
+ float: right;
+}
+.edits{
+  float: right;
+}
+.editos{
+  font-family: 'Glober';
+  font: 80px;
+  text-decoration-line: overline;
+  text-decoration-color:white;
+  text-decoration-style: solid ;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.editi{
+  font-family:'Glober';
+  font: 80px;
+  text-decoration-line: overline;
+  text-decoration-color:white;
+  text-decoration-style: solid ;
+  text-align: center;
+  background-color:black;
+  color: white;
+}
+table,th,td{
+  border:1px solid;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+  width: 75%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*th {
+  height: 70px;
+}
+*/
+.forum{
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+.whole{
+ background-color: blue
+ ;
+}
+.end{
+  color: white;
+  text-align: center;
 }
